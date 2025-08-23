@@ -1,0 +1,130 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #0d1117; /* dark background */
+  color: #e6edf3;      /* soft white text */
+  line-height: 1.6;
+  padding: 0 20px;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  border-bottom: 1px solid #222;
+}
+
+header h1 {
+  font-size: 1.6rem;
+  color: #ffffff;
+}
+
+header nav a {
+  margin: 0 12px;
+  text-decoration: none;
+  color: #8b949e;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+header nav a:hover {
+  color: #58a6ff; /* accent blue */
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 70px 20px;
+}
+
+.hero h2 {
+  font-size: 2.2rem;
+  margin-bottom: 12px;
+  color: #ffffff;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: #a6a6a6;
+}
+
+/* Projects */
+#projects {
+  padding: 60px 0;
+  text-align: center;
+}
+
+#projects h2 {
+  font-size: 2rem;
+  margin-bottom: 35px;
+  color: #ffffff;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 28px;
+}
+
+.card {
+  background: #161b22; /* dark card */
+  padding: 28px;
+  border-radius: 14px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.4);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  text-align: left;
+  border: 1px solid #222;
+}
+
+.card h3 {
+  margin-bottom: 14px;
+  font-size: 1.4rem;
+  color: #58a6ff;
+}
+
+.card p {
+  font-size: 1rem;
+  color: #c9d1d9;
+  line-height: 1.6;
+}
+
+/* Hover effect */
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6);
+}
+
+/* Contact */
+#contact {
+  text-align: center;
+  padding: 40px 0;
+}
+
+#contact a {
+  color: #58a6ff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+#contact a:hover {
+  color: #1f6feb;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+  font-size: 0.9rem;
+  color: #8b949e;
+  border-top: 1px solid #222;
+}
