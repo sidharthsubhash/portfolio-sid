@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sidharth Subhash | Portfolio</title>
+  <title>Sidharth Subhash</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Header -->
+
   <header>
-    <h1>Sidharth Subhash </h1>
+    <h1>Sidharth Subhash</h1>
     <nav>
       <a href="#about">About</a>
       <a href="#projects">Projects</a>
@@ -17,46 +17,119 @@
     </nav>
   </header>
 
-  <!-- Hero -->
   <section id="about" class="hero">
-    <h2>Hello, I'm Sidharth 👋</h2>
-    <p>Aspiring Developer | Frond End - UI/UX</p>
-  </section>
-
-  <!-- Projects -->
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="projects">
-
-  <a href="https://sidharthsubhash.github.io/nike-project/" target="_blank">
-    <div class="card">
-      <h3>Nike Storefront</h3>
-      <p>An e-commerce front-end project featuring a clean, responsive product display for Nike sneakers.</p>
+    <h2>Hello, I'm <span class="highlight">Sidharth 👋</span></h2>
+    <p>
+      I'm a Computer Science student at Christ University specializing in front-end development and UI/UX design. I'm passionate about building clean, responsive, and user-friendly web interfaces.
+    </p>
+    <div class="hero-actions">
+      <a href="#projects" class="btn btn-primary">See My Work</a>
     </div>
-  </a>
-</div>
-      <a href="https://sidharthsubhash.github.io/ford-v-ferrari/" target="_blank">
-  <div class="card">
-    <h3>Static Movie Page</h3>
-    <p>A portfolio project showcasing a movie page for "Ford v Ferrari," featuring a synopsis, cast details, and reviews.</p>
+  </section>
+<section id="skills">
+  <h2>🛠 Skills</h2>
+  <div class="skills-grid">
+    <div class="skill-card">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5">
+      <p>HTML5</p>
+    </div>
+    <div class="skill-card">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3">
+      <p>CSS3</p>
+    </div>
+    <div class="skill-card">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java">
+      <p>Java</p>
+    </div>
+
+    <div class="skill-card">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript">
+      <p>JavaScript</p>
+    </div>
+    <div class="skill-card">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
+      <p>Python</p>
+    </div>
+    <div class="skill-card">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="C">
+      <p>C</p>
+    </div>
+    <div class="skill-card">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++">
+      <p>C++</p>
+    </div>
   </div>
-</a>
-    </div>
-  </section>
-
-  <!-- Contact -->
- <section id="contact"> 
-  <h2>Contact</h2>
-  <p>Email: <a href="mailto:sidharthsubhash2006@gmail.com">sidharthsubhash2006@gmail.com</a></p>
-  <p>
-    <a href="https://www.linkedin.com/in/sidharthsubhash/" target="_blank">LinkedIn</a> | 
-    <a href="https://github.com/sidharthsubhash" target="_blank">GitHub</a>
-  </p> 
 </section>
 
 
+  <section id="projects">
+    <h2>🚀 Projects</h2>
+    <div class="projects-grid">
+      <a href="https://sidharthsubhash.github.io/nike-project/" target="_blank" class="card-link">
+        <div class="card">
+          <h3>Nike Storefront</h3>
+          <p>An e-commerce front-end project featuring a clean, responsive product display for Nike sneakers.</p>
+          <div class="tech-stack">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+          </div>
+          <span class="cta-link">View Live Demo →</span>
+        </div>
+      </a>
+
+      <a href="https://sidharthsubhash.github.io/ford-v-ferrari/" target="_blank" class="card-link">
+        <div class="card">
+          <h3>Static Movie Page</h3>
+          <p>A portfolio project showcasing a movie page for "Ford v Ferrari," featuring a synopsis, cast details, and reviews.</p>
+          <div class="tech-stack">
+            <span>HTML</span>
+            <span>CSS</span>
+          </div>
+          <span class="cta-link">View Live Demo →</span>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <section id="contact"> 
+    <h2>📬 Contact</h2>
+    <p>Email: <a href="mailto:sidharthsubhash2006@gmail.com">sidharthsubhash2006@gmail.com</a></p>
+    <div class="contact-links">
+      <a href="https://www.linkedin.com/in/sidharthsubhash/" target="_blank">LinkedIn</a>
+      <a href="https://github.com/sidharthsubhash" target="_blank">GitHub</a>
+    </div>
+  </section>
+
   <footer>
-    
+    <p>© 2025 Sidharth Subhash. Built with ❤️ and code.</p>
   </footer>
+
+  <div id="floating-toggle">
+    <button id="theme-toggle" aria-label="Toggle light and dark mode">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon">
+        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+      </svg>
+    </button>
+  </div>
+
+  <script>
+    const toggleBtn = document.getElementById('theme-toggle');
+    const body = document.body;
+    const isLightMode = localStorage.getItem('theme') === 'light-mode';
+
+    if (isLightMode) {
+      body.classList.add('light-mode');
+    }
+
+    toggleBtn.addEventListener('click', () => {
+      body.classList.toggle('light-mode');
+      if (body.classList.contains('light-mode')) {
+        localStorage.setItem('theme', 'light-mode');
+      } else {
+        localStorage.setItem('theme', 'dark-mode');
+      }
+    });
+  </script>
 </body>
 </html>
