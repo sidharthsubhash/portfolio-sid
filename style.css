@@ -375,3 +375,39 @@ footer {
   border-color: var(--highlight-color);
   box-shadow: 0 8px 18px rgba(0, 0, 0, 0.5);
 }
+#agency {
+  padding: 3rem 1.5rem;
+  text-align: center;
+  background: var(--card-bg, #1a1a1a);
+  border-radius: 12px;
+  margin: 3rem auto;
+  max-width: 800px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+#agency h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+#agency p {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+#agency .hero-actions .btn {
+  font-size: 1rem;
+  padding: 0.7rem 1.2rem;
+  border-radius: 8px;
+  background: #f3ce32;
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+#agency .hero-actions .btn:hover {
+  background: #ffd84f;
+}
+
+
